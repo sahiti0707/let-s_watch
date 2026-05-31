@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#0a0a0a"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.letswatch.app",
@@ -45,7 +47,11 @@
         "storageBucket": "langchain-66cab.firebasestorage.app",
         "messagingSenderId": "949129611078",
         "appId": "1:949129611078:web:aafddcbb7edc2fd5f04747"
+      },
+      "eas": {
+        "projectId": "d32ff6e3-1b42-423a-89d0-3ef9926f0f29"
       }
-    }
+    },
+    "owner": "enigma1234"
   }
 }
