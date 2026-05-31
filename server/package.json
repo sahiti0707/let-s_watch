@@ -1,0 +1,15 @@
+{
+  "name": "lets-watch-signaling-server",
+  "version": "1.0.0",
+  "description": "WebRTC signaling server for let's_watch",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js",
+    "dev": "node --watch signaling-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  }
+}
