@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "let's_watch",
+    "slug": "lets-watch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.letswatch.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "let's_watch needs camera access so your friend can see you during watch parties",
+        "NSMicrophoneUsageDescription": "let's_watch needs microphone access so you can talk during watch parties"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "package": "com.letswatch.app",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "signalingServerUrl": "https://lets-watch-signaling.onrender.com",
+      "firebaseConfig": {
+        "apiKey": "AIzaSyBbkQ643Ju1_nri764ex-Hq_IPrXxS7qSY",
+        "authDomain": "langchain-66cab.firebaseapp.com",
+        "projectId": "langchain-66cab",
+        "storageBucket": "langchain-66cab.firebasestorage.app",
+        "messagingSenderId": "949129611078",
+        "appId": "1:949129611078:web:aafddcbb7edc2fd5f04747"
+      }
+    }
+  }
+}
