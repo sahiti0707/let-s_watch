@@ -37,7 +37,7 @@
       "bundler": "metro"
     },
     "extra": {
-      "signalingServerUrl": "https://lets-watch-signaling.onrender.com",
+      "signalingServerUrl": "https://let-s-watch-4cvi.onrender.com",
       "firebaseConfig": {
         "apiKey": "AIzaSyBbkQ643Ju1_nri764ex-Hq_IPrXxS7qSY",
         "authDomain": "langchain-66cab.firebaseapp.com",
